@@ -14,13 +14,11 @@ function Paginate() {
             breakLabel="..."
             nextLabel="→"
             onPageChange={handlePageClick}
+            pageRangeDisplayed={5}
             pageCount={9}
             previousLabel="←"
             renderOnZeroPageCount={null}
             containerClassName="pagination-ul"
-            activeClassName="active-ul-a"
-            disabledClassName="disabled-li"
-            marginPagesDisplayed={2}
         />
     );
 }
